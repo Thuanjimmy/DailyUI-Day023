@@ -1,0 +1,41 @@
+body{
+    background-color: #30475e;
+    color: #ffffff;
+}
+
+
+.box{
+    width: 320px;
+    height: 600px;
+    background-color: #222831;
+    border-radius: 50px;
+    border: white 10px solid;
+    margin: 75px auto;
+    padding: 10px;
+}
+
+.notch{
+    background-color: #ffffff;
+    width: 160px;
+    height: 25px;
+    border-radius: 75px;
+    position: relative;
+    left: 65px;
+    bottom: 15px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    margin: 20px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
